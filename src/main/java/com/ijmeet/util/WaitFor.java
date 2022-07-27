@@ -1,4 +1,4 @@
-package com.testingshastra.util;
+package com.ijmeet.util;
 
 import java.time.Duration;
 import java.util.NoSuchElementException;
@@ -8,7 +8,7 @@ import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import com.testingshastra.keyword.UIKeyword;
+import com.ijmeet.keyword.UIKeyword;
 
 public class WaitFor {
 	private static final WebDriverWait wait;

@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.testingshastra.uitest.homepagetest.HomePageTests"/>
+      <class name="com.ijmeet.uitest.homepagetest.HomePageTests"/>
       <class name="com.testingshastra.config.BaseClass"/>
     </classes>
   </test> <!-- Test -->

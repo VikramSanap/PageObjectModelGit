@@ -1,4 +1,4 @@
-package com.testingshastra.uitest.homepagetest;
+package com.ijmeet.uitest.homepagetest;
 
 import java.io.IOException;
 import java.net.MalformedURLException;
@@ -14,10 +14,12 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import com.testingshastra.config.BaseClass;
-import com.testingshastra.keyword.UIKeyword;
-import com.testingshastra.pages.HomePage;
-import com.testingshastra.pages.JoinMeetingPage;
+import com.ijmeet.config.BaseClass;
+import com.ijmeet.keyword.UIKeyword;
+import com.ijmeet.pages.HomePage;
+import com.ijmeet.pages.JoinMeetingPage;
+
+import io.cucumber.java.en.Given;
 
 public class HomePageTests extends BaseClass {
 	UIKeyword keyword = UIKeyword.getInstance();
@@ -34,7 +36,7 @@ public class HomePageTests extends BaseClass {
 		home.clickOnJoinMeetingTab();
 		JoinMeetingPage joinMeeting = PageFactory.initElements(keyword.driver, JoinMeetingPage.class);
 		String actual = joinMeeting.getQuickJoinMeetingTitle();
-		Assert.assertTrue(actual.contains("Quick"));
+		Assert.assertTrue(actual.contains("Quickies"),"\"Does not redirected\"");
 		System.out.println("TITLE OF QUICK JOIN MEETING "+actual);
 	}
 	

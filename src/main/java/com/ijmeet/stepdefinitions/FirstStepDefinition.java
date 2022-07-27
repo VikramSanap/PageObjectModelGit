@@ -1,4 +1,4 @@
-package com.testingshastra.stepdefinitions;
+package com.ijmeet.stepdefinitions;
 
 import java.util.Scanner;
 

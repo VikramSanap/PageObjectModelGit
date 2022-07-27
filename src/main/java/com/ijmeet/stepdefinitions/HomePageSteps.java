@@ -1,10 +1,10 @@
-package com.testingshastra.stepdefinitions;
+package com.ijmeet.stepdefinitions;
 
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.Assert;
 
-import com.testingshastra.config.Application;
-import com.testingshastra.keyword.UIKeyword;
+import com.ijmeet.config.Application;
+import com.ijmeet.keyword.UIKeyword;
 
 import io.cucumber.java.en.*;
 

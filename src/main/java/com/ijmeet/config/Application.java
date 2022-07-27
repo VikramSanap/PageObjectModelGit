@@ -1,9 +1,9 @@
-package com.testingshastra.config;
+package com.ijmeet.config;
 
-import com.testingshastra.util.PropertiesFile;
+import com.ijmeet.util.PropertiesFile;
 
 public class Application {
-	private static final String FILE_PATH ="\\src\\main\\resources\\application.properties";
+	private static final String FILE_PATH ="\\src\\test\\resources\\application.properties";
 	
 	public String getBrowser() {
 		return PropertiesFile.getProperty(FILE_PATH, "Iris.Browser");

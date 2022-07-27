@@ -1,4 +1,4 @@
-package com.testingshastra.pages;
+package com.ijmeet.pages;
 
 import java.util.Iterator;
 import java.util.List;
@@ -9,8 +9,14 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
 
-import com.testingshastra.keyword.UIKeyword;
-
+import com.ijmeet.keyword.UIKeyword;
+/**
+ * This is a Home Page of {@code ijmeet.com}
+ * this class contains all the {@code WebElements } present on the Home Paage
+ * and elememt specific methods to perform various actions on specific {@code WebElement} 
+ * @author Vikram Ashok Sanap
+ *
+ */
 public class HomePage {
 
 	UIKeyword keyword = UIKeyword.getInstance();
