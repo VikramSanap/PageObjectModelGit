@@ -1,4 +1,4 @@
-package com.testingshastra.util;
+package com.ijmeet.util;
 
 import java.awt.image.BufferedImage;
 import java.io.File;
@@ -10,7 +10,9 @@ import org.apache.log4j.Logger;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
-import com.testingshastra.keyword.UIKeyword;
+
+import com.ijmeet.keyword.UIKeyword;
+
 import ru.yandex.qatools.ashot.AShot;
 import ru.yandex.qatools.ashot.Screenshot;
 import ru.yandex.qatools.ashot.shooting.ShootingStrategies;

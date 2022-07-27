@@ -5,3 +5,5 @@ Scenario: Check the title of home page
 	And the url of the application is launched
 	Then Verify the title of the home parge
 	
+	Scenario: to verifyifUserRedirectsToJoinMeetingPage
+	Given verifyifUserRedirectsToJoinMeetingPage 

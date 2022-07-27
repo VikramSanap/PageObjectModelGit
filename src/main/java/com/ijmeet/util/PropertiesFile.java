@@ -1,4 +1,4 @@
-package com.testingshastra.util;
+package com.ijmeet.util;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -7,7 +7,7 @@ import java.util.Properties;
 
 public class PropertiesFile {
 	public static void main(String[] args) {
-		 
+ 		 
 			String dir = System.getProperty("user.dir");
 			System.out.println(dir);
 	}
